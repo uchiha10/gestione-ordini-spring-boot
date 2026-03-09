@@ -1,4 +1,4 @@
-# 📦 Sales & Inventory Management System
+# Sales & Inventory Management System
 
 Benvenuti nel repository del mio ultimo progetto freelance. Si tratta di una piattaforma gestionale Full-Stack progettata per ottimizzare la gestione del magazzino e il tracciamento delle vendite per piccole e medie imprese.
 
@@ -6,7 +6,7 @@ L'obiettivo principale era sostituire i processi manuali (spesso basati su fogli
 
 ---
 
-## 💡 Perché questo progetto è diverso?
+## Perché questo progetto è diverso?
 
 Oltre alle classiche operazioni CRUD, mi sono concentrato sulla risoluzione di problemi reali che colpiscono i gestionali:
 
@@ -16,7 +16,7 @@ Oltre alle classiche operazioni CRUD, mi sono concentrato sulla risoluzione di p
 
 
 
-## 🛠️ Cosa ho utilizzato (Stack Tecnologico)
+## Cosa ho utilizzato (Stack Tecnologico)
 
 Per garantire scalabilità e manutenibilità, ho scelto tecnologie standard del settore:
 
@@ -25,7 +25,7 @@ Per garantire scalabilità e manutenibilità, ho scelto tecnologie standard del 
 * **UI/UX:** Thymeleaf per il rendering lato server e Bootstrap 5 per un'interfaccia responsive e pulita.
 * **Reporting:** OpenPDF per la manipolazione di documenti PDF.
 
-## 🚀 Funzionalità principali
+## Funzionalità principali
 
 1.  **Dashboard Intuitiva:** Monitoraggio dello stock con filtri automatici per i prodotti attivi.
 2.  **Logica di Vendita:** Ogni acquisto aggiorna automaticamente le giacenze e calcola il fatturato totale in tempo reale.
@@ -34,7 +34,7 @@ Per garantire scalabilità e manutenibilità, ho scelto tecnologie standard del 
 
 
 
-## ⚙️ Come avviarlo in locale
+## Come avviarlo in locale
 
 1.  Assicurati di avere **Java 17** e **Maven** installati.
 2.  Configura il tuo DB MySQL in `src/main/resources/application.properties`.
@@ -45,7 +45,7 @@ Per garantire scalabilità e manutenibilità, ho scelto tecnologie standard del 
 4.  Apri il browser su `http://localhost:8080/dashboard`.
 
 ---
-### 👨‍💻 Chi sono
+### Chi sono
 Sono uno sviluppatore appassionato di Java e architetture backend. Mi piace costruire strumenti che risolvono problemi reali e rendono il lavoro delle persone più semplice.
 
 **Contatti:** www.linkedin.com/in/gianluca-pappalardo-3b39ab170
