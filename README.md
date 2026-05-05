@@ -1,4 +1,5 @@
 # Sales & Inventory Management System
+![Java CI with Maven](https://github.com/uchiha10/gestione-ordini-spring-boot/actions/workflows/ci.yml/badge.svg)
 
 Benvenuti nel repository del mio ultimo progetto freelance. Si tratta di una piattaforma gestionale Full-Stack progettata per ottimizzare la gestione del magazzino e il tracciamento delle vendite per piccole e medie imprese.
 
