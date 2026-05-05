@@ -22,4 +22,4 @@ jobs:
 
       - name: Build with Maven
         # Usiamo -DskipTests per ora così siamo sicuri che la pipeline diventi verde subito
-        run: mvn -B package --file pom.xml -DskipTests
+        run: mvn -B package --file gestione-ordini/pom.xml -DskipTests
