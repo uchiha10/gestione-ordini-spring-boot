@@ -5,6 +5,7 @@ import com.gianluca.gestione_ordini.model.Prodotto;
 import com.gianluca.gestione_ordini.repository.OrdineRepository;
 import com.gianluca.gestione_ordini.repository.ProdottoRepository;
 import com.gianluca.gestione_ordini.service.OrdineService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -56,7 +57,7 @@ public class SalutoController {
     @Autowired
     private OrdineService ordineService;
     @PostMapping("/compra/{prodottoId}/{qta}")
-    public String creaOrdine(@PathVariable Long prodottoId, @PathVariable Integer qta) {
+    public String creaOrdine(@Valid @PathVariable Long prodottoId, @PathVariable Integer qta) {
         // Il controller delega tutto al service
         return ordineService.processaOrdine(prodottoId,qta);
     }

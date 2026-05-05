@@ -1,6 +1,9 @@
 package com.gianluca.gestione_ordini.model; // Assicurati che il nome del package sia uguale agli altri file
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
 @Entity // Dice a Docker/MySQL: "Crea una tabella chiamata prodotto"
@@ -12,8 +15,15 @@ public class Prodotto {
     private Long id;
     private boolean attivo=true;
 
+    @NotBlank(message = "Il nome del prodotto è obbligatorio")
     private String nome;
-    private Double prezzo;
+
+    @NotNull(message = "La quantità è obbligatoria")
+    @Min(value = 1, message = "La quantità deve essere almeno 1")
+    private double prezzo;
+
+    @NotNull(message = "Il prezzo è obbligatorio")
+    @Min(value = 0, message = "Il prezzo non può essere negativo")
     private int quantita=0;
 
 }

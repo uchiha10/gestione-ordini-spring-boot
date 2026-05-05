@@ -74,4 +74,5 @@ public class OrdineService {
 
         return "Ordine #" + ordineId + " annullato. " + o.getQuantita() + " pezzi tornati in magazzino.";
     }
-}
+
+    }
